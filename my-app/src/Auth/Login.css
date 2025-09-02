@@ -1,0 +1,125 @@
+/* ===========================
+   LOGIN PAGE
+=========================== */
+.login-container {
+  max-width: 500px;
+  margin: 80px auto;
+  padding: 40px;
+  background-color: #111111;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(233, 199, 140, 0.4);
+  color: #FFFFFF;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+
+.login-container h2 {
+  font-size: 36px;
+  color: #e9c78c;
+  margin-bottom: 30px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login-form input {
+  padding: 14px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  background-color: #222222;
+  color: #FFFFFF;
+  outline: none;
+  transition: all 0.3s;
+}
+
+.login-form input:focus {
+  box-shadow: 0 0 10px #e9c78c;
+  background-color: #1a1a1a;
+}
+
+.login-form button[type="submit"] {
+  padding: 16px 35px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #e9c78c;
+  color: #000;
+  transition: all 0.3s;
+}
+
+.login-form button[type="submit"]:hover {
+  background-color: #d4b86c;
+  transform: scale(1.05);
+}
+
+/* ===========================
+   ROLE SELECTION
+=========================== */
+.role-selection {
+  margin: 25px 0;
+}
+
+.role-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.role-buttons button {
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #222222;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.role-buttons button:hover,
+.role-buttons button.active {
+  background-color: #e9c78c;
+  color: #000;
+  transform: scale(1.05);
+}
+
+/* ===========================
+   SIGNUP LINK
+=========================== */
+.signup-text {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.signup-link {
+  color: #e9c78c;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.signup-link:hover {
+  color: #d4b86c;
+}
+
+/* ===========================
+   RESPONSIVE DESIGN
+=========================== */
+@media (max-width: 768px) {
+  .login-container {
+    margin: 50px 20px;
+    padding: 30px;
+  }
+
+  .role-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+}

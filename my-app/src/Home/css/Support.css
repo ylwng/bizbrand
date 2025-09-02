@@ -1,0 +1,70 @@
+/* =========================
+   SUPPORT PAGE STYLES
+========================= */
+
+.support-section {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+  font-family: "Arial", sans-serif;
+  color: #ffffff; /* white text */
+  background-color: #111111; /* dark background for contrast */
+  border-radius: 12px;
+  padding: 40px 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.support-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #e9c78c; /* brand highlight color */
+  text-align: center;
+}
+
+.support-section h3 {
+  font-size: 1.6rem;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.support-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.support-section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.support-section ul li {
+  margin-bottom: 10px;
+}
+
+.support-section a {
+  color: #e9c78c;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.support-section a:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .support-section {
+    padding: 20px 15px;
+  }
+
+  .support-section h2 {
+    font-size: 2rem;
+  }
+
+  .support-section h3 {
+    font-size: 1.4rem;
+  }
+}

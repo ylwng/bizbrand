@@ -1,0 +1,69 @@
+.coaches-container {
+  padding: 80px 60px;
+  text-align: center;
+  background-color: #111111;
+  color: #fff;
+}
+
+.coaches-container h2 {
+  font-size: 42px;
+  margin-bottom: 50px;
+  color: #e9c78c;
+  text-shadow: 0 0 10px #e9c78c;
+}
+
+.coaches-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.coach-card {
+  background-color: #222222;
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.coach-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(233, 199, 140, 0.5);
+}
+
+.coach-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.coach-card h3 {
+  font-size: 24px;
+  color: #e9c78c;
+  margin-bottom: 10px;
+}
+
+.coach-card p {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #ddd;
+}
+
+.request-btn {
+  margin-top: 15px;
+  padding: 10px 25px;
+  font-weight: 700;
+  border-radius: 8px;
+  border: none;
+  background-color: #e9c78c;
+  color: #000;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.request-btn:hover {
+  background-color: #d4b86c;
+}
